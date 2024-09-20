@@ -16,11 +16,10 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   font-size: 72px;
 }
-
-.counter button {
+button.counter {
   font-size: 40px;
   padding: 10px 20px;
   border: 1px solid #fff;
@@ -30,12 +29,12 @@ a {
   cursor: pointer;
 }
 
-.counter button:hover {
+button.counter:hover {
   background: #fff;
   color: #000;
 }
 
-.counter button:active {
+button.counter:active {
   background: #fff;
   color: #000;
 }

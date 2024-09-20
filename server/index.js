@@ -62,7 +62,6 @@ async function startServer() {
     const toolbarOverrides = vercelFlagOverrideCookie
       ? await decrypt(vercelFlagOverrideCookie.split("=")[1])
       : {};
-    console.log(req.headers["cookie"], vercelFlagOverrideCookie);
     const pageContextInit = {
       urlOriginal: req.originalUrl,
       toolbarOverrides,
