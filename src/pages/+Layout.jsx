@@ -6,7 +6,7 @@ import { FlagValues } from "@vercel/flags/react";
 
 // You should inject the toolbar conditionally
 // to avoid showing it to all visitors
-if (typeof window !== "undefined" && location.hostname === "localhost") {
+if (typeof window !== "undefined") {
   mountVercelToolbar({
     projectId: "prj_YlENLdYQVTbPYWkr9TzA2luStDLc",
     ownerId: "team_zgNTDqSLGxbdFxTkK28cPOPZ",
